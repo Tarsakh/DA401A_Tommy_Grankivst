@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="tarsakh.assignment_1.Frag_Quote_Page">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@array/array_Quotes"
+        android:id="@+id/quote_textview_frag_Quote_Page"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:layout_gravity="center_horizontal|top"
+        android:id="@+id/quote_Page_Time_Text" />
+
+</FrameLayout>

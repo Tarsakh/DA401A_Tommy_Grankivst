@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Assignment_1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="value_bt_Click_Me">Click Me!</string>
+    <string name="value_lb_Front_Page_Info">Click the button to get a Quote!</string>
+
+    <string-array name="array_Quotes">
+        <item>\"Iam what i am and i do what i can. \nTarsakh\"</item>
+        <item>\"People often say that motivation doesnt last.\nWell, neither does bathing.\nThat is why we recommend it daily.\"</item>
+        <item>\"The Average Person\nThinks they are above average!\"</item>
+        <item>\"You learn more from failure than from success.\nDont let it stop you.\nFailure builds character.\"</item>
+        <item>\"Comfort is the enemy of Achievement.\"</item>
+    </string-array></resources>

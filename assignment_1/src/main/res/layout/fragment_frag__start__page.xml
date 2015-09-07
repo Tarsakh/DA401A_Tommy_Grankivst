@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="tarsakh.assignment_1.Frag_Start_Page"
+    android:id="@+id/Frag_Start_Page_Layout"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/value_lb_Front_Page_Info"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="244dp"
+        android:layout_height="77dp"
+        android:text="@string/value_bt_Click_Me"
+        android:id="@+id/bt_Click_Me"
+        android:layout_gravity="bottom|center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:hint="@string/value_bt_Click_Me"
+        android:layout_marginBottom="100dp"
+        android:onClick="selectFrag" />
+
+
+</FrameLayout>
