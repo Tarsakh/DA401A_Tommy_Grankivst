@@ -5,7 +5,7 @@
         <!-- String --> <item>2003</item>
         <!-- String --> <item>A small Swedish village, Högboträsk, is so peaceful that crime is nonexistent. The police spend their shifts drinking coffee, eating hot dogs and chasing down runaway cows. This is all well and good for the village\'s own police, but the police management board wants to discontinue the local police force for lack of crime.</item>
         <!-- int --> <item>@drawable/cops_fanart</item>
-        <!-- int --> <item>@drawable/cops_poster</item>
+        <!-- int --> <item>>@drawable/cops_poster</item>
     </array>
 
     <array name="eat_sleep_die">
