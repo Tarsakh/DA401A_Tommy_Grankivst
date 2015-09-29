@@ -1,34 +1,51 @@
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="tarsakh.assignment_2.Frag_Movie_List"
-    android:id="@+id/Frag_Movie_List_LayOut"
-    >
+    android:layout_height="match_parent">
 
     <ImageView
-        android:layout_width="190dp"
-        android:layout_height="255dp"
-        android:id="@+id/imageView_Movie_Poster"
-        android:layout_gravity="left|top"
-        android:background="@drawable/you_the_living_fanart" />
-
-    <TextView
+        android:id="@+id/frag_List_ImageView_Movie_Poster"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Four Shades of Brown"
-        android:id="@+id/textView_Movie_Title"
-        android:layout_gravity="left|top"
-        android:layout_row="1"
-        android:layout_column="0"
-        android:layout_alignBottom="@+id/imageView_Movie_Poster"
-        android:textStyle="bold"
-        android:textSize="25dp"
-        android:elegantTextHeight="true"
-        android:layout_alignEnd="@+id/imageView_Movie_Poster"
-        android:autoText="true"
-        android:textColor="#040933" />
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+
+        android:orientation="vertical"
+        android:layout_alignBottom="@+id/frag_List_ImageView_Movie_Poster"
+        android:layout_alignLeft="@+id/frag_List_ImageView_Movie_Poster"
+        android:layout_alignRight="@+id/frag_List_ImageView_Movie_Poster"
+        android:padding="24dp"
+        android:background="#fd060606">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frag_List_TextView_Movie_Title"
+            android:text="Let the Right One In"
+            android:textSize="14dp"
+            android:textColor="#fff9f8"
+            android:background="#fd060606"/>
+        <!--android:text="Four Shades of Brown"-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/frag_List_TextView_Movie_Year"-->
+            <!--android:text="2015"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/frag_List_TextView_Movie_Title"-->
+            <!--android:textColor="#fff9f8"-->
+            <!--android:textSize="12dp"-->
+            <!--android:background="#fd060606"/>-->
+
+        <!--android:text="2015"-->
+    </LinearLayout>
+
 
 </RelativeLayout>

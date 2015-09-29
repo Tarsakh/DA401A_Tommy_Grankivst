@@ -1,0 +1,79 @@
+<ScrollView
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" >
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tarsakh.assignment_2.Frag_Detail_Movie">
+
+    <ImageView
+        android:id="@+id/frag_Detail_imageView_Movie_Cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        />
+    <!--android:background="@drawable/you_the_living_fanart"-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+
+        android:orientation="vertical"
+        android:layout_alignBottom="@+id/frag_Detail_imageView_Movie_Cover"
+        android:layout_alignLeft="@+id/frag_Detail_imageView_Movie_Cover"
+        android:layout_alignRight="@+id/frag_Detail_imageView_Movie_Cover"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/frag_Detail_TextView_Movie_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff9f8"
+            android:textSize="20dp"
+            android:text="Let the Right One In"
+            android:textStyle="bold"
+            android:background="#fd060606"/>
+
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="10dp"-->
+
+
+
+
+        <TextView
+            android:id="@+id/frag_Detail_TextView_Movie_Year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/frag_Detail_TextView_Movie_Title"
+            android:layout_marginTop="10dp"
+            android:textColor="#fef1ee"
+        android:text="2312"
+            android:background="#fd060606"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/frag_Detail_TextView_Movie_Resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/frag_Detail_TextView_Movie_Year"
+            android:text="Åmål is a small insignificant town where nothing ever happens, where the latest trends are out of date when they get there. Young Elin has a bit of a bad reputation when it comes to guys, but the fact is that she has never done *it*. Another girl in her school, Agnes, is in love with her but is too shy to do anything about it. For different reasons, Elin ends up at Agnes\' birthday party as the only guest. They have a girl\'s night out together but after that Elin desperately avoids Agnes, refusing to even consider her own homosexuality."
+            android:textColor="#fff9f8"
+            android:background="#fd060606" />
+
+        <!--android:textSize="18dp"-->
+
+    </LinearLayout>
+
+
+</FrameLayout>
+</ScrollView>

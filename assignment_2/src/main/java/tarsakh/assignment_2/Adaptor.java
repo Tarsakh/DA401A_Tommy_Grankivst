@@ -4,6 +4,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.List;
 
@@ -37,6 +39,20 @@ public class Adaptor extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        return null;
+        if (convertView == null) {
+            convertView = mLayoutInflater.inflate(R.layout.fragment_frag__movie__list, parent, false);
+        }
+
+        Movie movie = (Movie) getItem(position);
+
+        TextView titleTextView = (TextView) convertView.findViewById(R.id.frag_List_TextView_Movie_Title);
+        titleTextView.setText(movie.titel);
+//        TextView yearTextView = (TextView) convertView.findViewById(R.id.frag_List_TextView_Movie_Year);
+//        yearTextView.setText(movie.year);
+        ImageView posterImageView = (ImageView) convertView.findViewById(R.id.frag_List_ImageView_Movie_Poster);
+        posterImageView.setImageResource(movie.poster);
+
+        return convertView;
     }
 }
+
