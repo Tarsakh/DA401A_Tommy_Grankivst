@@ -16,10 +16,6 @@ import android.widget.GridView;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
-
-
 public class Frag_Movie_List extends Fragment implements AdapterView.OnItemClickListener{
 
     List<Movie> mMovieList = new ArrayList<>();
@@ -38,10 +34,6 @@ public class Frag_Movie_List extends Fragment implements AdapterView.OnItemClick
                     movieArray.getString(2),
                     movieArray.getResourceId(3,0),
                     movieArray.getResourceId(4,0));
-           /* Movie movie = new Movie(movieArray.getString(0),
-                    movieArray.getString(1), movieArray.getString(2),
-                    movieArray.getResourceId(3,0), movieArray.getResourceId(4,0));
-*/
 
             mMovieList.add(movie);
             movieArray.recycle();

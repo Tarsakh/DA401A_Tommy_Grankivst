@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <array name="cops">
-        <!-- String --> <item>Cops</item>
-        <!-- String --> <item>2003</item>
-        <!-- String --> <item>A small Swedish village, Högboträsk, is so peaceful that crime is nonexistent. The police spend their shifts drinking coffee, eating hot dogs and chasing down runaway cows. This is all well and good for the village\'s own police, but the police management board wants to discontinue the local police force for lack of crime.</item>
-        <!-- int --> <item>@drawable/cops_fanart</item>
-        <!-- int --> <item>>@drawable/cops_poster</item>
+        <item>Cops</item>
+        <item>2003</item>
+        <item>A small Swedish village, Högboträsk, is so peaceful that crime is nonexistent. The police spend their shifts drinking coffee, eating hot dogs and chasing down runaway cows. This is all well and good for the village\'s own police, but the police management board wants to discontinue the local police force for lack of crime.</item>
+        <item>@drawable/cops_fanart</item>
+        <item>>@drawable/cops_poster</item>
     </array>
 
     <array name="eat_sleep_die">

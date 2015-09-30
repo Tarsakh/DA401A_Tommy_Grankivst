@@ -47,8 +47,8 @@ public class Adaptor extends BaseAdapter {
 
         TextView titleTextView = (TextView) convertView.findViewById(R.id.frag_List_TextView_Movie_Title);
         titleTextView.setText(movie.titel);
-//        TextView yearTextView = (TextView) convertView.findViewById(R.id.frag_List_TextView_Movie_Year);
-//        yearTextView.setText(movie.year);
+        TextView yearTextView = (TextView) convertView.findViewById(R.id.frag_List_TextView_Movie_Year);
+        yearTextView.setText(movie.year);
         ImageView posterImageView = (ImageView) convertView.findViewById(R.id.frag_List_ImageView_Movie_Poster);
         posterImageView.setImageResource(movie.poster);
 
