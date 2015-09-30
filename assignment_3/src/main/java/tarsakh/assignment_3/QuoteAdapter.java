@@ -40,11 +40,11 @@ public class QuoteAdapter extends BaseAdapter{
     public View getView(int position, View convertView, ViewGroup parent) {
 
         Log.i("QuoteAdapter", "in getView");
-        convertView = mLayoutInflater.inflate(R.layout.frag_Quotes, parent, false);
+        convertView = mLayoutInflater.inflate(R.layout.frag_quotes, parent, false);
 
         String quote = mQuoteList.get(position);
 
-        TextView quoteLine = (TextView) convertView.findViewById(R.id.frag_Quotes_TextView_Quotes);
+        TextView quoteLine = (TextView) convertView.findViewById(R.id.frag_Quotes_TextView_Quote);
         quoteLine.setText(quote);
 
         return convertView;
