@@ -38,7 +38,7 @@ public class QuoteFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         Log.i("QuoteFragment", "in onCreateView");
-        View v = inflater.inflate(R.layout.frag_Quote_ListShower, container, false);
+        View v = inflater.inflate(R.layout.frag_quote_listshower, container, false);
 
         mProgressBar = (ProgressBar) v.findViewById(R.id.Frag_Quote_List_ProgressBar);
         mProgressBar.setVisibility(View.GONE);
@@ -57,7 +57,7 @@ public class QuoteFragment extends Fragment {
                 Log.i("QuoteFragment", "in onItemClick");
                 mProgressBar.setVisibility(View.VISIBLE);
                 try {
-                    URL url = new URL("https://api.github.com/zen?access_token=0f892e365071c7e778a020e463d715b8ccb816f5");
+                    URL url = new URL("https://api.github.com/zen?access_token=186a8d02e92284742af947ab80b52bf9d34b4c12");
                     new ASyncTask_Download_Quotes().execute(url);
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
