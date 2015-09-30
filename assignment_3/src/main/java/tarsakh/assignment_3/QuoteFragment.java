@@ -81,7 +81,6 @@ public class QuoteFragment extends Fragment {
                         Log.i("QuoteFragment","InputStream = Null");
                     }else{
                         BufferedReader reader = new BufferedReader(new InputStreamReader(IS));
-//                        StringBuilder makt = new StringBuilder();
                         String quote;
                         while((quote = reader.readLine())!= null){
 
