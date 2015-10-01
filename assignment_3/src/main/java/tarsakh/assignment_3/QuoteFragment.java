@@ -57,7 +57,7 @@ public class QuoteFragment extends Fragment {
                 Log.i("QuoteFragment", "in onItemClick");
                 mProgressBar.setVisibility(View.VISIBLE);
                 try {
-                    URL url = new URL("https://api.github.com/zen?access_token=186a8d02e92284742af947ab80b52bf9d34b4c12");
+                    URL url = new URL("https://api.github.com/zen?access_token=35916d7f930a498392ad79cb3161db8be03df8ec");
                     new ASyncTask_Download_Quotes().execute(url);
                 } catch (MalformedURLException e) {
                     e.printStackTrace();

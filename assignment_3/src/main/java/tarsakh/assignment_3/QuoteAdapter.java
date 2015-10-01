@@ -44,7 +44,7 @@ public class QuoteAdapter extends BaseAdapter{
 
         String quote = mQuoteList.get(position);
 
-        TextView quoteLine = (TextView) convertView.findViewById(R.id.frag_Quotes_TextView_Quote);
+        TextView quoteLine = (TextView) convertView.findViewById(R.id.frag_Quotes_TextView_Quotes);
         quoteLine.setText(quote);
 
         return convertView;
