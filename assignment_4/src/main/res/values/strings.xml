@@ -1,0 +1,12 @@
+
+<resources>
+<string name="app_name">Assignment_4</string>
+<string name="title_activity_maps">Assignment_4</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+<string name="quest_1">What City are you in right now?</string>
+<string name="quest_2">What is the square root of 81?</string>
+<string name="quest_3">Befor schrodinger opens the box is the cat dead or alive?</string>
+<string name="quest_4">Is Pluto a planet?</string>
+
+</resources>

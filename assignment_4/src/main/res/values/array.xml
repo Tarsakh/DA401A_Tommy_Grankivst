@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quest_1">
+        <item>Helsingborg</item>
+        <item>Malmö</item>
+        <item>Landskrona</item>
+    </string-array>
+
+    <string-array name="quest_2">
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="quest_3">
+        <item>Both at the same time</item>
+        <item>Dead</item>
+        <item>Alive</item>
+    </string-array>
+
+    <string-array name="quest_4">
+        <item>Never was</item>
+        <item>Yes</item>
+        <item>Not anymore</item>
+    </string-array>
+
+</resources>
